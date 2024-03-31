@@ -1,0 +1,205 @@
+<html>
+
+    <head>
+        <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+
+        <title> Document </title>
+
+        <!--Custome CSS Link-->
+        <link rel="stylesheet"  href="design.css">
+
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <!--JS link-->
+        <script type="text/javascript" src="js/script.js"></script>
+      
+        
+    </head>
+    <body>
+        <!--Start Header-->
+        <header>
+            <a href="#" class="logo">
+                <img src="images/logo.png">
+            </a>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+            <div class="header-icons">
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAmFJREFUSEvl1knIjVEcx/HPS+aNcWVnYSND5lKmiNgQC2RFyZBMCymlWFjItEBSNkRKSUJIFBtTkSHWZCEkRZHp+b+dt+77vPfe57n3vvUunN29zzm/7/kP53dOmx4abT3E1Qy4N8ZhStr0QzzH70aCaBS8DEcxMgd5i824XBbeCPgwthYIH8KOMvCy4Pm4mQQfYReepN+TsL8i9XNxpwheFnwL81ItJ+NnTrgvHmMsrmNRd4B74Rv6YxOO1xDdiGP4mvXBEPypBy8TcXTwsySyGNdqCEaUV9O3MXjVKjg6+F0SWYXzNQRX4lz6FmvetwqO9Z8wFPW69mCW5u34mKV8RHfUODT2YXcyiaW4khNegovZvDCXPdjbXeBorJcYlQTvpy7ukzp5Zvr/TXK1fNd32UeZ5upYFE12NoGqBRS2GXWODRaORsAhFkdrAxZgepb+XynyOLsni45Q5W4aBRdGUnZCWfAwzMhcaRrCufrlAD9S5A8yh4v6fy7aQBF4MA5gLaWv0L8p7TuTi1XdQz3wcpzA8IqV35OLVfPq8RhYMfcD1uNSNXItcFzykbaO76dxBC+ycxoR1dKKS2IL1qQJMXdqKkOnNdXAcdPE0RiNiHAh7hXVLPd9VvL0yMDrLOrIRqcsVQOHLW5LQuuy18apBqEd0yPNUaoYXay2GjiiHIAbKdomue3LbiMeBqE5qN45jmMTJh9jBS60QsVqnEkacUd/6dDLRzyx4kkTtY2oWxmVd3RYbvRO+8iDZ1e8l+bgbivUbH1NvTw4DGNCgj2tTE2TG6ipV+RcTfKKl/1/4H9Qfmkf+jdIxwAAAABJRU5ErkJggg=="/></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAgdJREFUSEvN1kuoTXEUx/HPlYFHpEQyIhnIxEQiEwYykMHFhJnyLAMDxUCkPAYG0i2RMnJH9w6NhIEoxUAJA4/yiGIgMvAIZ93+u3bbuef893k4Vp3B2Wf91/e/fuuxz5AB2dCAuP4L8CLEJ+wLHvRTjXLGx3GsBHuGjXjejwu0AgfvIVb0G1yWehgHEnAt7vQaPllzzcV7TMUodvwrcHCuYju+YzO+dQl/hRdFjFbjFBLf7hJWPb4V4/Gw3Rw/wvIewnfiSg54Ny4m8Clc7+ASJ7EGPzEPn3LAM/AOsxN0Q03wTHzENIxhW06NC5/zabR+Nxpuac2FUlZsE67VAS9BbLGwczhYI+u7WI0PWIBfdcDhewPr8RnzM0drcWl8zuJQ+cLturrw3ZJqFN934XJG1tGMR5LfMjztBDylAXyb5HqcMWKR0BssxP1GbVdWL5qbcZw7ihMpQMzjyxZZx+yPpN/340I34GiO12l/Zyg94fIj9cTE7HYidXHmUqpxLjiWz95mznWkjvNR66jX9Azy11TfmP+/rC44AsRSmJPqFn+RqjYL+9JqDIWaWl3waRxOkW6l2a4Gvol16eGZ0kh1VeNy0JAwpK9abKciocku1/a1WA1a3r0h454m4Gio8AuL35vKXVfqCBZbKN5W91o02Kq0Xp/0qsYZzZzn0knGeZHbeA0M/AffmVMfIK6tVQAAAABJRU5ErkJggg=="/></i></a>
+               
+                <div >
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAIhJREFUSEvtlTESgDAIBC+9j/JpNv7LT1lZaJWKycwFiFCQGtiwMElD0GlBXBT4N/Oluqs+nJ2LeiPVrzNYcNKBnRuW5Wqru5Pd4PpiclcsFzW+dOAw1cyYTDHUPEyEQXI6MPNWbwBurQ3LVi8BM9/iCeDx7lhbj85Lt1z0zbWB1bHW3HRemOoPr+8NHxYc2DsAAAAASUVORK5CYII=" id="menu-icon">
+                </div>
+            </div>
+        </header>
+
+        <!--Start Home secrion-->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h6>Best Online Platform</h6>
+                <h1>Accessible All Online Courses</h1>
+                <p>kP53dOmx4abTPm4mQQfYReepN</p>
+                <div class="latter">
+                    <form>
+                        <input type="email" placeholder="write Email" required>
+                        <input type="submit" value="Let's Start" required>
+                    </form>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="images/img1.jpg">
+
+            </div>
+        </section>
+        <!--Custom js link-->
+        <section class="container">
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="images/con1.png">
+                </div>
+                <div class="container-text">
+                    <h4>5K</h4>
+                    <p>Online Courses</p>
+                </div>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="images/con2.png">
+                </div>
+                <div class="container-text">
+                    <h4>5K</h4>
+                    <p>Online Courses</p>
+                </div>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="images/con3.png">
+                </div>
+                <div class="container-text">
+                    <h4>5K</h4>
+                    <p>Online Courses</p>
+                </div>
+            </div>
+        </section>
+        <!--Start Categories section-->
+        <section class="categories">
+            <div class="center-text">
+                <h5>CATEGORIES</h5>
+                <h2>Popular Categories</h2>
+            </div>
+        <div class="wrap">
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="images/angular.png">
+                <div class="title-flex">
+                  <h3 class="box-title">Angular</h3>
+                </div>
+                <p class="description">Nemo enim ipsam voluptatem, quia voluptas sit,onsequunts, qui ratione voluptatem sequi ne.</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="images/mongodb.png">
+                <div class="title-flex">
+                  <h3 class="box-title">Mongodb</h3>
+                  
+                </div>
+                <p class="description">Nemo enim ipsam voluptaquia consequuntur magni dolores eos, qui ratione voluptatem sequi ne.</p>
+              </div>
+              
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="images/nodejs.png">
+                <div class="title-flex">
+                  <h3 class="box-title">NodeJs</h3>
+                  
+                </div>
+                <p class="description">Nemo enim ipsam volupquia consequuntur magni dolores eos, qui ratione voluptatem sequi ne.</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box-top">
+                <img class="box-image" src="images/java.png">
+                <div class="title-flex">
+                  <h3 class="box-title">Java</h3>
+                </div>
+                <p class="description">Nemo enim ipsam v, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi ne.</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="main-btn">
+            <a href="#" class="btn">All Categories</a>
+          </div>
+        </section>
+
+        <!--Footer-->
+       
+        <footer id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="index.html"><img src="images/logo.png"  class="img-fluid logo-footer" height="40%" width="60%"></a>
+                         
+                          </div>
+        
+              </div>
+              <div class="col-md-3">
+                <div class="useful-link">
+                  <h2>Company</h2>
+                 
+                  <div class="use-links">
+                    <li><a href="about.html" style="text-decoration: none;"> Courses</a></li>
+                    <li><a href="about.html" style="text-decoration: none;"> About Us</a></li>
+                    <li><a href="gallery.html" style="text-decoration: none;"> Contact Us</a></li>
+                   
+                  </div>
+                </div>
+        
+              </div>
+                        <div class="col-md-3">
+                            <div class="social-links">
+                  <h2>Follow Us</h2>
+                
+                  <div class="social-icons">
+                   
+                    <li><a href="#" style="text-decoration: none;"><img src="images/facebook.png" height="12%" width="10%" style="padding-top: 18px;"> </a></li>
+                    <li><a href="#" style="text-decoration: none;"><img src="images/instagram.png" height="12%" width="10%" style="padding-top: 18px;"> </a></li>
+                    <li><a href="#" style="text-decoration: none;"><img src="images/linkedin.png" height="12%" width="10%" style="padding-top: 18px;"></a></li>
+                  </div>
+                </div>
+                        
+        
+                        </div>
+              <div class="col-md-3">
+                <div class="address">
+                  <h2>Address</h2>
+                 
+                  <div class="address-links">
+                    <li class="address1"><img src="images/google-maps.png" width="10%" height="12%" style="padding-top: 18px;"> Office No.12 Third Floor ghhj
+                      Memorial Complex  Maharaj
+                      Road Opposite Panchali Hotel</a></li>
+        
+                       <li class="address1"><img src="images/phone.png" width="10%" height="12%"> +91 87657689</a></li>
+                       <li class="address1"><img src="images/gmail.png" width="10%" height="12%"> info@technobrothers.in</a></li>
+                  </div>
+                </div>
+              </div>
+                      
+            </div>
+          </div>
+           
+                 
+    </body>
+</html>
